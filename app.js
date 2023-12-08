@@ -56,6 +56,7 @@ function deleteNote(index) {
     else {
         notesObj = JSON.parse(notes);
     }
+
     
 
     notesObj.splice(index, 1);
