@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Notes App </title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div>
+            <a class="logo" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-journal-text" viewBox="0 0 16 16">
+                <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+              </svg> Notes App</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="heading">Welcome to Notes App  </h1>
+        <hr>
+        <div class="input">
+            <div class="card-body">
+                <h2 class="card-title">Add Note</h2>
+                <div>
+                    <textarea class="form-control" rows="5" id="addTxt"></textarea>
+                </div>
+                <button href="#" class="primary-btn" id="addBtn">Add Note</button>
+            </div>
+        </div>
+
+        <h1 class="notes-heading">Your Notes</h1>
+        <hr>
+        <div id="notes" class="output-container"> </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

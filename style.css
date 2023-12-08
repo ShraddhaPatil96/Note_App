@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sofia+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: navy;
+}
+
+.logo {
+    font-size: 2rem;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container {
+    width: 85%;
+    padding: 10px;
+    margin: 1rem auto;
+}
+
+.heading {
+    font-size: 1.8rem;
+    margin-bottom: 0.6rem;
+    font-family: sans-serif;
+}
+
+.input {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    padding: 8px;
+    outline: none;
+    border-radius: 4px;
+    color: rgb(72, 66, 66);
+}
+
+.primary-btn {
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: skyblue;
+}
+
+.primary-btn:hover {
+    background-color: rgb(36, 211, 27);
+}
+
+hr {
+    margin: 10px auto;
+}
+
+.notes-heading {
+    font-size: 1.4rem;
+}
+
+.delete-btn {
+    border: none;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: violet;
+}
+
+.output-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.delete-btn:hover {
+    background-color: #000;
+}
+
+.noteCard {
+    width: 250px;
+    margin: 1rem;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.card-text {
+    margin: 10px 0;
+    color: navy;
+}
+
+
